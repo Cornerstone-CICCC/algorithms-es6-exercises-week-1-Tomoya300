@@ -9,3 +9,19 @@ A factorial is calculated by multiplying a number by all the numbers below it. F
 
 Save your final answer in a variable called solution and print it to the console.
 */
+let sum = 1
+
+function calculation(number) {
+    for (let i = 1; i <= number; i++) {
+        sum = i*sum
+    }
+    return sum
+} 
+
+let solution = calculation(12)
+console.log(solution)
+// let solution = 1
+// for (let i = 12; i >= 1; i--) {
+//     solution = i * solution //5
+// }
+// console.log(solution)
