@@ -4,3 +4,14 @@ Write an anonymous function expression that stores a function in a variable call
 laugh(3);
 Returns: hahaha!
 */
+
+function laugh(number) {
+    let sound = ""
+    for (let i = 1; i <= number; i++) {
+        sound += "ha"
+    }
+    return sound + "!"
+}
+
+console.log(laugh(3))
+
